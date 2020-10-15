@@ -1,0 +1,63 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+		    "path" : "pages/login/login",
+		    "style" : {
+				"navigationStyle":"custom",
+				"navigationBarTextStyle":"black",
+				"app-plus": {
+					"bounce":"none"
+				}
+			}
+		},
+		{
+			"path": "pages/index/index",
+			"style": {
+				"app-plus": {
+					"bounce":"none"
+				}
+			}
+		}
+        ,{
+            "path" : "pages/about/about",
+            "style" : {
+				"navigationBarTitleText":"About the application"
+			}
+        }
+        ,{
+            "path" : "pages/me/me",
+            "style" : {
+				"navigationBarTitleText": "Profile"
+			}
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "white",
+		"navigationBarTitleText": "Virtual Traffic Light",
+		"navigationBarBackgroundColor": "#788BE2",
+		"backgroundColor": "#FFFFFF",
+		"backgroundColorTop":"#F4F5F7",
+		"backgroundColorBottom":"#F4F5F7",
+		"app-plus": {
+			"scrollIndicator":"none"
+		}
+	},
+	"tabBar": {
+	    "color": "#7A7E83",
+	    "selectedColor": "#788BE2",
+	    "borderStyle": "black",
+	    "backgroundColor": "#ffffff",
+	    "list": [{
+	        "pagePath": "pages/index/index",
+	        "iconPath": "static/tab/home.png",
+	        "selectedIconPath": "static/tab/home-active.png",
+	        "text": "Home"
+	    }, {
+	        "pagePath": "pages/me/me",
+	        "iconPath": "static/tab/me.png",
+	        "selectedIconPath": "static/tab/me-active.png",
+	        "text": "Me"
+	    }
+		]
+	}
+}
