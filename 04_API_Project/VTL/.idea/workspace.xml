@@ -9,8 +9,13 @@
     <list default="true" id="5a47664a-562c-4bc1-8c76-3353e3102790" name="Default Changelist" comment="">
       <change afterPath="$PROJECT_DIR$/server/src/main/java/com/luulsj/www/yuyue/server/model/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/luulsj/www/yuyue/server/constant/WechatConstant.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/luulsj/www/yuyue/server/constant/WechatConstant.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/luulsj/www/yuyue/server/controller/WebSocketController.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/luulsj/www/yuyue/server/controller/WebSocketController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/server/src/main/java/com/luulsj/www/yuyue/server/model/WechatUser.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/java/com/luulsj/www/yuyue/server/util/sms/QCloudSmsImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/java/com/luulsj/www/yuyue/server/util/sms/QCloudSmsImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/server/src/main/resources/config.properties" beforeDir="false" afterPath="$PROJECT_DIR$/server/src/main/resources/config.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../in-manager/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../in-manager/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../in-manager/src/main/resources/jdbc.properties" beforeDir="false" afterPath="$PROJECT_DIR$/../in-manager/src/main/resources/jdbc.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -182,11 +187,6 @@
                 <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
                 <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
               </path>
-              <path>
-                <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-                <item name="Tomcat Server" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-                <item name="Running" type="7427dc5b:ServiceModel$ServiceGroupNode" />
-              </path>
             </expand>
             <select />
           </treeState>
@@ -206,6 +206,7 @@
       <updated>1600467395100</updated>
       <workItem from="1600467403928" duration="30167000" />
       <workItem from="1602449202534" duration="6141000" />
+      <workItem from="1602724033499" duration="85000" />
     </task>
     <servers />
   </component>
@@ -369,10 +370,11 @@
       <screen x="0" y="0" width="1440" height="900" />
     </state>
     <state x="251" y="89" key="SettingsEditor/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1602456601283" />
-    <state x="335" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1602449203165">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="-1473" y="357" key="com.intellij.ide.util.TipDialog" timestamp="1602724033519">
+      <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="335" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900/-1920.0.1920.1080@0.0.1440.900" timestamp="1602449203165" />
+    <state x="-1473" y="357" key="com.intellij.ide.util.TipDialog/0.23.1440.826/-1920.23.1920.1057@-1920.23.1920.1057" timestamp="1602724033519" />
     <state x="0" y="150" key="new project wizard" timestamp="1600467570415">
       <screen x="0" y="0" width="1440" height="900" />
     </state>

@@ -12,9 +12,9 @@ import java.util.List;
 public class QCloudSmsImpl implements ISms {
 
     // 短信应用 SDK AppID
-    private static int appid = 1400376494;
+    private static int appid = 123;
     // 短信应用 SDK AppKey
-    private static String appkey = "563a948ce8ec7eb85e92b0c3c3fffb18";
+    private static String appkey = "123";
     // 签名, 签名参数使用的是`签名内容`，而不是`签名ID`。这里的签名"腾讯云"只是示例，真实的签名需要在短信控制台申请
     String smsSign = "科界TechTrek";
 
